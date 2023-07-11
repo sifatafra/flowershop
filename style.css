@@ -28,3 +28,44 @@
     padding: 15px 25px;
     border-radius: 5px;
 }
+
+.featured_sec {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.featured_collection {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.peach {
+    background-color: #f3dde2;
+    padding: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.peach img {
+    margin-top: 80px;
+}
+
+
+.pink {
+    background-color: #bee9eb;
+    padding: 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.red {
+    background-color: #d6ebc1;
+    padding: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.red img {
+    margin-top: 100px;
+}
