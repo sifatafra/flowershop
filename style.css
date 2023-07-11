@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .banner {
@@ -79,7 +80,7 @@
 }
 
 .services {
-    margin: 150px 0;
+    margin: 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,9 +98,80 @@
 
 .delivery_section {
     background-color: #efeded;
-    margin: 100px;
+    margin: 90px;
     padding: 50px;
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+
+.pinky {
+    color: #E55473;
+}
+
+.deals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f0f1;
+    margin-bottom: 80px;
+    padding: 50px;
+}
+
+.details {
+    margin: 10px 0;
+}
+
+.deals img {
+    margin-left: 100px;
+}
+
+.ig {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social_medias {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flower_cover {
+    margin: 100px auto;
+    background-image: url(./images/Rectangle\ 9.png);
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 80%;
+}
+
+.description {
+    position: relative;
+    top: 120px;
+
+}
+
+.email_btn {
+    padding: 15px 200px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.input_btn {
+    margin-top: 15px;
+}
+
+footer {
+    background-color: black;
+    margin-top: -150px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 300px;
+    padding: 50px;
+
+
 }
