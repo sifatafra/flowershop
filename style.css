@@ -17,7 +17,8 @@
 
 .banner img {
     height: 600px;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-left: 100px;
 }
 
 .pink_btn {
@@ -40,9 +41,14 @@
     justify-content: space-evenly;
 }
 
+.featured_collection a {
+    color: black;
+}
+
 .peach {
     background-color: #f3dde2;
     padding: 20px;
+    margin-bottom: 30px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
@@ -55,6 +61,7 @@
 .pink {
     background-color: #bee9eb;
     padding: 50px;
+    margin-bottom: 30px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
@@ -62,10 +69,37 @@
 .red {
     background-color: #d6ebc1;
     padding: 20px;
+    margin-bottom: 30px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
 
 .red img {
     margin-top: 100px;
+}
+
+.services {
+    margin: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower {
+    background-color: rgb(180, 94, 180);
+    color: white;
+    padding: 10px;
+}
+
+.lists {
+    margin-left: 100px;
+}
+
+.delivery_section {
+    background-color: #efeded;
+    margin: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
