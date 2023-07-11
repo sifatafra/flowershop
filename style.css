@@ -1,0 +1,30 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    background-color: #f3dde2;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_description {
+    font: bolder;
+    font-weight: 800;
+}
+
+.banner img {
+    height: 600px;
+    margin-top: 30px;
+}
+
+.pink_btn {
+    background-color: #E55473;
+    border: 0;
+    color: white;
+    font: bold;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
